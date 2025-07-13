@@ -1,10 +1,10 @@
-html {
-  scroll-behavior: smooth;
+body {
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; 
 }
 
 h2 {
@@ -19,33 +19,105 @@ a:hover {
   opacity: 0.8;
 }
 
+/* === Navbar === */
+.navbar {
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 1.6rem;
+  color: #1e3a8a !important;
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-weight: 600;
+  margin-left: 1rem;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #1e3a8a;
+}
+
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #1e3a8a;
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar .nav-item-custom.active,
+.navbar .nav-item-custom:focus {
+  color: #1e3a8a !important;
+  font-weight: 600;
+}
+
+/* === Project Card === */
+
+#projects {
+  background-color: #f6f7f9; /* Hafif gri tonu */
+  padding: 80px 0;
+}
+
+.project-card {
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* === Experience === */
+.experience-section {
+  padding: 100px 20px;
+  background-color: #f8f9fa;
+}
+
+.exp-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* === Contact === */
+#contact p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+#contact .btn {
+  min-width: 150px;
+  font-weight: 500;
+}
+
+/* === Footer === */
 footer {
   font-size: 0.9rem;
   padding: 20px 0;
   text-align: center;
 }
 
-.project-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 10px;
-}
-
-.project-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
-#home h1 {
-  letter-spacing: 1.5px;
-}
-
-#home p {
-  line-height: 1.6;
-  color: #333;
-}
-
-
-/* RESPONSIVE STİLLER */
+/* === Responsive  === */
 @media (max-width: 768px) {
   h2 {
     font-size: 1.6rem;
@@ -76,7 +148,8 @@ footer {
     font-size: 0.8rem;
   }
 
-  p, li {
+  p,
+  li {
     font-size: 0.95rem;
   }
 

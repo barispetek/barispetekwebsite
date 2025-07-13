@@ -11,7 +11,7 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Merhaba, Ben
+        Merhaba, ben
       </motion.p>
 
       <motion.h1
@@ -29,7 +29,7 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8 }}
       >
-        Bilişim Sistemleri ve Teknolojileri
+        Bilişim Sistemleri ve Teknolojileri Öğrencisi
       </motion.h4>
 
       <motion.div
@@ -41,11 +41,11 @@ function Home() {
         <a
           href="/BarisPetek_Resume.pdf"
           download
-          className="btn btn-outline-dark"
+          className="btn btn-outline-dark px-4"
         >
-          CV indir
+          CV İndir
         </a>
-        <a href="#contact" className="btn btn-dark text-white">
+        <a href="#contact" className="btn btn-dark text-white px-4">
           İletişim
         </a>
       </motion.div>
@@ -76,16 +76,15 @@ function Home() {
 
       <motion.p
         className="lead mx-auto"
-        style={{ maxWidth: "850px" }}
+        style={{ maxWidth: "850px", color: "#444", fontSize: "1.1rem" }}
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.4, duration: 1 }}
       >
-        Merhaba! Ben Barış Petek.
-        Yazılım geliştirmeye ve teknoloji dünyasına ilgi duyan bir geliştirici adayıyım.
-        Sistemleri anlamak, üretmek ve bir fikri gerçek bir ürüne dönüştürmek beni motive ediyor.
-        Backend geliştirme, API mimarileri, veritabanı tasarımı ve bulut teknolojileri gibi alanlarda projeler geliştirerek kendimi sürekli geliştiriyorum.
-        Amacım; yazılım alanındaki yetkinliğimi artırarak gerçek dünya projelerinde yer almak ve iş hayatına güçlü bir başlangıç yapabilmek.
+        Yazılım geliştirmeye ve teknolojiye ilgi duyan bir geliştirici adayıyım.
+        Sistemleri anlamak, üretmek ve fikirleri gerçek projelere dönüştürmek beni motive ediyor.
+        Backend geliştirme, API mimarileri, veritabanı tasarımı ve bulut teknolojileri alanlarında çalışıyorum.
+        Hedefim: yazılım dünyasında kalıcı bir yer edinmek ve güçlü bir kariyer inşa etmek.
       </motion.p>
     </Container>
   );
