@@ -29,7 +29,7 @@ function About() {
                   <Card.Title className="mb-2 fs-5">
                     <FaLaptopCode className="me-2" /> Deneyim
                   </Card.Title>
-                  <Card.Text>Backend Development</Card.Text>
+                  <Card.Text>Backend Development & Infrastructure</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -40,7 +40,7 @@ function About() {
                     <FaUniversity className="me-2" /> Eğitim
                   </Card.Title>
                   <Card.Text>
-                    Bilgi Sistemleri ve Teknolojileri <br />
+                    Bilişim Sistemleri ve Teknolojileri <br />
                     Okan Üniversitesi
                   </Card.Text>
                 </Card.Body>
