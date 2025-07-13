@@ -1,20 +1,21 @@
-# Barış Petek - Kişisel Portföy Sitesi
+# Barış Petek - Personal Portfolio Website
 
-Bu proje, React ve Bootstrap kullanılarak geliştirilmiş kişisel bir portföy sitesidir. Barış Petek'in yazılım geliştirme alanındaki becerilerini, projelerini ve iletişim bilgilerini tanıtmak amacıyla hazırlanmıştır.
+This is a personal portfolio website developed using React and Bootstrap.  
+It was built to showcase my software development skills, selected projects, and contact information in a clean and modern interface.
 
-## ✨ Özellikler
+## ✨ Features
 
-- Mobil uyumlu (responsive) tasarım
-- React + Bootstrap ile modern arayüz
-- Projeler kart yapısıyla sunulur
-- Backend ve sistem becerilerini vurgulayan deneyim bölümü
-- İletişim bilgileri ve sosyal medya bağlantıları
-- Hover efektli kart animasyonları
-- Açılışta animasyonlu giriş efekti
+- Fully responsive design
+- Modern UI built with React and Bootstrap
+- Projects displayed as interactive cards
+- Experience section highlighting backend & system skills
+- Contact information and social media links
+- Hover animations on project cards
+- Animated intro on page load
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
 - React
 - React Bootstrap
 - HTML & CSS
-- Framer Motion 
+- Framer Motion
