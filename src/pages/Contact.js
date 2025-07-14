@@ -75,14 +75,13 @@ const Contact = () => {
 
           <Button
             variant="primary"
-            href="/BarisPetek-Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
+            href="#home"
             className="px-4 py-2"
           >
             <FaFileDownload className="me-2" />
             CV indir
           </Button>
+
         </div>
 
         {/* İletişim Formu */}
