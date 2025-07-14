@@ -12,6 +12,7 @@ It was built to showcase my software development skills, selected projects, and 
 - Contact information and social media links
 - Hover animations on project cards
 - Animated intro on page load
+- 🔒 **Email Contact Form** with secure backend (Node.js + Express + Nodemailer)
 
 ## 🛠️ Technologies Used
 
@@ -19,3 +20,8 @@ It was built to showcase my software development skills, selected projects, and 
 - React Bootstrap
 - HTML & CSS
 - Framer Motion
+- Node.js (backend)
+- Express.js
+- Nodemailer
+- Render.com (for backend deployment)
+- Vercel (for frontend deployment)
