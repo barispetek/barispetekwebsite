@@ -21,6 +21,7 @@ const skills = [
     items: [
       { title: "PostgreSQL, MSSQL", level: "Intermediate" },
       { title: "Node.js", level: "Basic" },
+      { title: "Flask", level: "Intermediate" },
       { title: "ASP.NET Core API", level: "Intermediate" },
       { title: "Docker", level: "Intermediate" },
     ],
